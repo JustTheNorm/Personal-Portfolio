@@ -82,6 +82,12 @@ h6 {
     font-weight: 400;
 }
 
+.icons{
+    /* background-size: 10px 5px; */
+    /* width:10px; */
+    /* transform: scale(.75) */
+}
+
 /*=========== My Classes ============*/
 .main-title {
     margin-bottom: 60px;
