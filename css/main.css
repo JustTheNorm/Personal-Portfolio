@@ -77,12 +77,6 @@ h6 {
     font-weight: 400;
 }
 
-.icons{
-    /* background-size: 10px 5px; */
-    /* width:10px; */
-    /* transform: scale(.75) */
-}
-
 /*=========== My Classes ============*/
 .main-title {
     margin-bottom: 60px;
@@ -865,6 +859,13 @@ h6 {
     margin-bottom: 0;
     font-weight: 400;
     color: #c7c5c7;
+}
+.card{
+transition: .4s ease-in-out;
+}
+
+.card:hover{
+    background-color: #003d66;
 }
 
 /* --------------------------------------
