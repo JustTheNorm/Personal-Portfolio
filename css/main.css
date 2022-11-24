@@ -16,6 +16,16 @@ Table Of Contents
  12. Media Queries
 -----------------------------------------------------------------*/
 
+@font-face {
+font-family: 'Tiempos Text Regular';
+src: url('TiemposText-Regular.eot');
+src: url('TiemposText-Regular.eot?#iefix') format('embedded-opentype'),
+url('TiemposText-Regular.woff') format('woff'),
+url('TiemposText-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
 /* --------------------------------------
    1. Global Styles
 -----------------------------------------*/
@@ -33,7 +43,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'TimesNewRoman', sans-serif;
+    font-family: 'Tiempos Text Regular', sans-serif;
     margin: 0;
     padding: 0;
 }
