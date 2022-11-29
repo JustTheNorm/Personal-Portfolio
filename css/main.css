@@ -15,6 +15,15 @@ Table Of Contents
  11. Contact
  12. Media Queries
 -----------------------------------------------------------------*/
+@font-face {
+    font-family: 'Tiempos Text Regular';
+    src: url('TiemposText-Regular.eot');
+    src: url('TiemposText-Regular.eot?#iefix') format('embedded-opentype'),
+    url('TiemposText-Regular.woff') format('woff'),
+    url('TiemposText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
 
 /* --------------------------------------
    1. Global Styles
@@ -29,11 +38,11 @@ Table Of Contents
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tiempos Text Regular';
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Tiempos Text Regular';
     margin: 0;
     padding: 0;
 }
@@ -572,7 +581,7 @@ h6 {
 -----------------------------------------*/
 
 .home {
-    background: url("https://source.unsplash.com/v7daTKlZzaw") center center no-repeat fixed;
+    background: url("https://source.unsplash.com/h0Vxgz5tyXA") center center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
